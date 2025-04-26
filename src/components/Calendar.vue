@@ -1,6 +1,7 @@
 <template>
   <div>
     <FullCalendar ref="fullCalendar" :options="calendarOptions"></FullCalendar>
+    <div>zheshixinz</div>
   </div>
 </template>
 <script>
