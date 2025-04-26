@@ -2,6 +2,7 @@
   <div>
     <FullCalendar ref="fullCalendar" :options="calendarOptions"></FullCalendar>
     <div>zheshixinz</div>
+    <div>这是的v分支编辑</div>
   </div>
 </template>
 <script>
