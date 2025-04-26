@@ -2,6 +2,7 @@
   <div>
     <FullCalendar ref="fullCalendar" :options="calendarOptions"></FullCalendar>
     <div>zheshixinz</div>
+    <div>count = 2</div>
   </div>
 </template>
 <script>
