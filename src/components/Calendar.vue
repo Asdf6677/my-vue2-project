@@ -2,7 +2,13 @@
   <div>
     <FullCalendar ref="fullCalendar" :options="calendarOptions"></FullCalendar>
     <div>zheshixinz</div>
+
     <div>这是的v分支编辑</div>
+
+    <div>count = 2</div>
+    <div>5556666测试编辑内容ws</div>
+    <div>测试分支</div>
+
   </div>
 </template>
 <script>
@@ -48,7 +54,7 @@ export default {
         selectable: true, // 是否可选择
         selectMirror: true, // 选择时是否显示预览
         dayMaxEvents: true, // allow "more" link when too many events
-        moreLinkContent: this.moreLinkContent,
+
         weekends: true, // 是否显示周末
         navLinks: false, // 是否显示左右箭头
         selectHelper: false, // 是否显示选择框
@@ -59,13 +65,7 @@ export default {
         dateClick: this.handleDateClick, // 点击日期事件
         eventClick: this.handleEventClick, // 点击事件
         eventResize: this.onEventResize,
-        eventTimeFormat: {
-          // like '14:30:00'
-          hour: "2-digit",
-          minute: "2-digit",
-          meridiem: false,
-          hour12: false,
-        },
+
         moreLinkContent(arg) {
           return "还有" + arg.num + "个日程";
         },
