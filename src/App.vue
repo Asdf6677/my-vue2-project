@@ -1,22 +1,18 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-       <Calendar />
+    <div style="max-width: 1200px; margin: 24px auto; text-align: left;">
+      <TagSelector />
+    </div>
   </div>
 </template>
 
 <script>
-// eslint-disable-next-line
-// import HelloWorld from './components/HelloWorld.vue'
-import Calendar from './components/Calendar.vue'
+import TagSelector from './components/TagSelector.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
-    Calendar
-    
+    TagSelector
   }
 }
 </script>
